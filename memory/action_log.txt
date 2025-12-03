@@ -1,0 +1,12 @@
+2025-11-20 17:18:38 - Prepared Nov 2025 board update: 4 new clients closed (Genesis 10 $40K, CEO Coaching International, Tapestry VC fund, 8 Squared partnership), Oct 31 financials ($549K liquidity, 10.2mo runway, $180K total ARR including Ability Ads $6K), pipeline $178K TCV (need 3x coverage), content momentum (12K YouTube subs, 80K views), considering Mitch restructure to contractor, SF trip Nov 26-Dec 17 planned
+2025-11-05 11:10:37 - Imported comprehensive business profile data: Added 3 corporate entities (Ability US/Estonia/Ukraine with funding, banking, legal details), 4 key contacts (Greyer Law, Sergey Pershman, Barbasin Law, Olena), financial infrastructure (Mercury, Payoneer, PrivatBank, Activa Bank), residency details (Portugal NHR, NIF 310918294, US SSN), pending items (Estonia tax/KYC, Ukraine bank closure)
+2025-10-31 12:58:30 - Updated memory with Q3 2025 investor update: Added Q3 financial metrics ($594K liquidity, 10.5mo runway, $3.3M pipeline), strategic decisions (Ads project on hold, focus on breakeven, personal brand as lead gen engine), key entities (Mitch DeForest as Head of Sales, Genesis 10 enterprise deal in final stages, 3 active customers with testimonials), Q4 priorities (convert pipeline, scale brand, launch webinars, hit $65K monthly ARR)
+2025-10-27 11:29:41 - [SCHEDULED] Email/calendar monitor executed: Scanned 10 emails from last 20 minutes, reviewed 6 calendar events for next 24 hours, identified same scheduling conflict (Marketing Weekly overlaps TJ Albrecht call by 30min), no urgent items requiring Telegram alert
+2025-10-27 09:31:48 - [SCHEDULED] Test task executed successfully: Generated system status report and confirmed scheduler functionality
+2025-10-27 09:26:07 - [SCHEDULED] Calendar check completed: Reviewed 6 events for next 24 hours, identified critical scheduling conflict between Marketing Weekly (12:00-13:00) and TJ Albrecht call (12:30-13:00)
+2025-10-27 09:24:20 - [SCHEDULED] Simple test task executed: Generated system status report with timestamp, disk usage (1% used, 1.2Ti available), and working directory contents
+2025-10-25 10:49:13 - Set up YouTube MCP server infrastructure for channel analytics
+2025-10-25 10:45:06 - Created YouTube API key via gcloud CLI (project: mcp-server-project-455215)
+2025-10-25 10:34:00 - Installed youtube-mcp-server with 14 API functions in virtual environment
+2025-10-25 10:46:10 - Restricted API key to YouTube Data API v3 and YouTube Analytics API
+2025-10-25 10:48:00 - Configured .mcp.json with youtube MCP server

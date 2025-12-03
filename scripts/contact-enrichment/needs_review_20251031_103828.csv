@@ -1,0 +1,23 @@
+google_name,google_emails,google_org,google_notes,linkedin_file,linkedin_name,linkedin_headline,linkedin_location,confidence_score,match_type
+Anton Polishko,anton.polishko@gmail.com,,,anton-poliakov-75921422.json,Anton,"Product Designer | UI/UX, Research, Management (Native Mobile Apps, Web, CRM, Design Systems)","Warsaw, Mazowieckie, Poland",0.8571428571428571,fuzzy_name
+Anton Borzov,ab@stratminds.vc,,,antonborysov.json,Anton,Marketing Director & Head of Finance Practice at AltexSoft,"Valencia, Valencian Community, Spain",0.88,fuzzy_name
+Oleksandr Markov,oleksandr.markov@redcliffe-partners.com,,,oleksandr-gavrikov-bb94433.json,Oleksandr,"Senior Android Developer
+Full Stack Developer",Ukraine,0.8823529411764706,fuzzy_name
+Mike Reiner,mike@acrobator.vc,Acrobat VC,,sanjay-venkateswarulu-247b36.json,Sanjay,Founder & AI Architect | Crafting Next-Gen LLMs for Enterprise,"New York, New York, United States",0.75,organization
+Ashley Fletcher,ashley.fletcher@adthena.com,Adthena,Intro by Ian O'Ruke,sanjay-venkateswarulu-247b36.json,Sanjay,Founder & AI Architect | Crafting Next-Gen LLMs for Enterprise,"New York, New York, United States",0.75,organization
+Viktor Gurskyi,v@1991.vc,1991 vc,"investors based in London investing in Easter European companies. 15M fund, seed-pre-seed",sanjay-venkateswarulu-247b36.json,Sanjay,Founder & AI Architect | Crafting Next-Gen LLMs for Enterprise,"New York, New York, United States",0.75,organization
+Kenneth Ma,kennethma96@gmail.com,https://www.mottoptical.com,CEO of the family company that sells eye-ware. They have retail locations in NY and they want to dev,kenneth-momanyi.json,Kenneth,Visionary Entrepreneur | Product & Project Leader | MVNO & MVNE | FINTECH | IoT | Mobile Devices | B,"Seattle, Washington, United States",0.9473684210526315,fuzzy_name
+Andrew Shatyrko,andrew@fameo.agency,SHATYRKO Agency,"He runs LA-based marketing agency. 
+Met him at the NY AI Summit - he was part of the Ukraine delegat",sanjay-venkateswarulu-247b36.json,Sanjay,Founder & AI Architect | Crafting Next-Gen LLMs for Enterprise,"New York, New York, United States",0.75,organization
+Denis Gursky,dg@1991.vc,1991 vc,early stage VC from London,sanjay-venkateswarulu-247b36.json,Sanjay,Founder & AI Architect | Crafting Next-Gen LLMs for Enterprise,"New York, New York, United States",0.75,organization
+Andrew Kass,andrew@blackwatch.io,,,andrew-kasamas-694bb857.json,Andrew,"Marketing and Growth Director (CMO / VP Marketing / VP Growth | eCommerce, Digital, Performance, Bra","London, England, United Kingdom",0.88,fuzzy_name
+Daniel Priestley,daniel@dent.global,Dent Global,"Intro by Ian
+
+Intro from Ian Oruke. Entrepreneur who built a company that found a way to use quizzes",sanjay-venkateswarulu-247b36.json,Sanjay,Founder & AI Architect | Crafting Next-Gen LLMs for Enterprise,"New York, New York, United States",0.75,organization
+Jonathan Lerner,jl@smedvigcapital.com,,,jonathan-weiner-49a5b47.json,Jonathan,The Newcastle Network,Greater Boston,0.8666666666666667,fuzzy_name
+Veronica Drake,veronica@marketingops.com,,"Email contact - 8 exchanges (sent: 3, received: 5)
+Last interaction: 2025-10-17 09:59:39
+Added autom",veronicagraceacmi.json,Veronica,Talent Acquisition Specialist,"Toronto, Ontario, Canada",0.8571428571428571,fuzzy_name
+Tal Schechter,tal.schechter@flix.com,,"Email contact - 2 exchanges (sent: 1, received: 1)
+Last interaction: 2025-09-22 15:45:41
+Added autom",ytschechter.json,Tal,"Bringing excellence to ground mobility, globally!","Berlin, Berlin, Germany",0.8666666666666667,fuzzy_name

@@ -1,0 +1,13 @@
+If you're running a business—especially as a founder—you know the juggling act. You're constantly switching between Gmail, Calendar, your CRM, task lists, trying to remember who you talked to about what, digging through old emails, manually scheduling meetings.
+
+And here's the brutal part: the higher-level work you actually need to do? Strategy, partnerships, key decisions? That's getting squeezed into the cracks because you're drowning in operational busy work.
+
+So I built Corbin—think of it as an AI chief of staff. It's connected to all your business systems: Gmail, Calendar, Drive, your CRM, your contact database, even your meeting transcripts.
+
+It doesn't just answer questions—it actually takes action. Schedule a meeting? Done. Want to know what you discussed with someone six months ago? It searches your emails and call transcripts. Need to prep for a meeting? It pulls up everything about the attendees—their LinkedIn activity, company info, past conversations. It drafts emails, manages tasks, keeps your CRM updated.
+
+What this means for your business: you get hours back every day. No more context switching between ten different tools—just ask Corbin in plain English. Your CRM actually stays current. You walk into every meeting prepared.
+
+And here's what people don't expect: it learns your business over time. It remembers your preferences, your decisions, your relationships. It gets genuinely useful because it has the full context of how you work.
+
+Let me show you what this looks like in practice. We'll walk through a typical morning workflow...

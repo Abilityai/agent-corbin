@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "last_updated_by_agent": null,
+    "last_accessed_by_agent": null,
+    "user_id": null,
+    "last_memory_reset": null,
+    "total_interactions": 0
+  },
+  "profile": {
+    "name": null,
+    "business_name": null,
+    "role_or_title": null,
+    "industry": null,
+    "key_objectives": []
+  },
+  "preferences": {
+    "communication_style": null,
+    "preferred_tools": [],
+    "decision_making_style": null,
+    "notification_preferences": {},
+    "reporting_frequency_and_format": null
+  },
+  "memory": {
+    "key_facts": [],
+    "past_decisions": [],
+    "project_overviews": [],
+    "interaction_summaries": []
+  },
+  "context": {
+    "current_task_id": null,
+    "active_discussion_topic": null,
+    "recent_files_accessed": [],
+    "short_term_scratchpad": null
+  },
+  "entities": [],
+  "tasks_and_reminders": [],
+  "scheduled_tasks": {
+    "one_time": [],
+    "recurring": []
+  },
+  "agent_insights": {
+    "internal_notes": [],
+    "user_patterns": {
+      "typical_interaction_times": [],
+      "message_frequency": {
+        "daily_average": null,
+        "weekly_average": null,
+        "peak_hours": [],
+        "quiet_periods": []
+      },
+      "common_request_types": [],
+      "response_preferences": {
+        "preferred_response_length": null,
+        "likes_detailed_explanations": null,
+        "prefers_quick_actions": null
+      }
+    },
+    "behavioral_observations": [],
+    "effectiveness_metrics": {
+      "successful_task_completions": 0,
+      "clarification_requests_needed": 0,
+      "user_satisfaction_indicators": []
+    },
+    "learning_log": []
+  },
+  "custom_memory": {}
+} 

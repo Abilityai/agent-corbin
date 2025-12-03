@@ -1,0 +1,35 @@
+{
+  "contacts": {
+    "r.vandercam@ability.ai": {
+      "name": "Romain Van Der Cam",
+      "received": 1
+    },
+    "Jon@tobinandco.com": {
+      "name": "Jon Tobin",
+      "received": 1
+    },
+    "alana.kahan@1706advisorsclarityplan.com": {
+      "name": "Alana Kahan",
+      "received": 1
+    },
+    "curtgooden@ceocoaching.com": {
+      "name": "Curt Gooden",
+      "received": 1
+    },
+    "suriya@turnuptalent.ai": {
+      "name": "Suriya Ganesh",
+      "received": 1
+    },
+    "ian.robertson@anyscale.com": {
+      "name": "Ian Robertson",
+      "received": 1
+    },
+    "jon@aifund.ai": {
+      "name": "Jon Zemmelman",
+      "received": 1
+    }
+  },
+  "months": [
+    "October 2025"
+  ]
+}

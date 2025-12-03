@@ -1,0 +1,720 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "last_updated_by_agent": "2025-11-20T17:18:38Z",
+    "last_accessed_by_agent": "2025-10-23 10:57:29",
+    "user_id": "eugene@ability.ai",
+    "last_memory_reset": null,
+    "total_interactions": 3
+  },
+  "profile": {
+    "name": "Eugene Vyborov",
+    "business_name": "Ability.ai",
+    "role_or_title": "Co-Founder & CEO",
+    "industry": "AI Agent Systems & Business Process Automation",
+    "key_objectives": [
+      "Scale Ability.ai's autonomous AI agent system",
+      "Help founders and entrepreneurs scale faster with AI Agents",
+      "Empower businesses to automate complex processes",
+      "Grow the Ability AI Agent Hub platform"
+    ],
+    "background": {
+      "education": "Master's Degree in Computer Science (AI specialization) - Dnipro National University (2002-2007)",
+      "ai_experience_since": "2007",
+      "entrepreneur_type": "Three-time founder with two successful exits",
+      "leadership_experience": "Built and led teams from 5 to 100+ people with 90%+ retention rates"
+    },
+    "languages": [
+      "Ukrainian (Native)",
+      "English (Professional)",
+      "Russian (Native)"
+    ],
+    "residency": {
+      "current": "Portugal (NHR program)",
+      "nif": "310918294",
+      "residence_permit_valid_until": "2027-04-02",
+      "social_security": "12090175802",
+      "health_service": "897967390"
+    },
+    "us_status": {
+      "visa": "B1/B2",
+      "ssn": "782-83-8264",
+      "previous_visa": "O1 (expired Jan 2020)",
+      "credit_score_2020": "674 (Good)"
+    },
+    "family": {
+      "spouse": "Olena Kuzmenko",
+      "children": "None",
+      "pets": "Dog",
+      "parents": "In Germany (sometimes need assistance)"
+    }
+  },
+  "preferences": {
+    "communication_style": "Direct, professional, focused on efficiency and results",
+    "preferred_tools": [
+      "n8n",
+      "AI Agents",
+      "Google Workspace"
+    ],
+    "decision_making_style": "Strategic, data-driven, entrepreneurial",
+    "notification_preferences": {},
+    "reporting_frequency_and_format": null,
+    "notification_channels": {
+      "telegram": {
+        "enabled": true,
+        "bot_username": "@corbin20_bot",
+        "chat_id": 160904389,
+        "use_for": [
+          "urgent_notifications",
+          "scheduled_task_alerts",
+          "errors",
+          "high_priority_items"
+        ],
+        "description": "Primary notification channel for urgent items requiring immediate attention"
+      },
+      "notification_file": {
+        "enabled": true,
+        "use_for": [
+          "detailed_reports",
+          "all_task_outputs"
+        ],
+        "description": "Full detailed reports stored in notifications/ directory"
+      }
+    },
+    "tools_and_systems": {
+      "banking": {
+        "us": "Mercury (Ability Inc)",
+        "estonia": "Payoneer (Ability Estonia - high fees)",
+        "ukraine": "PrivatBank (Ability Ukraine - Google grant)",
+        "personal_portugal": "Activa Bank (Account: 45668277740, IBAN: PT50 0023 0000 4566 8277 7409 4)",
+        "personal_other": "Revolut, Wise"
+      },
+      "accounting": {
+        "us": "Xero (Ability Inc)",
+        "estonia": "Estonian accountant via Barbasin Law",
+        "personal_portugal": "Portuguese accounting firm"
+      },
+      "document_storage": {
+        "us_ukraine": "Google Drive",
+        "estonia": "Dropbox",
+        "personal": "Personal Dropbox"
+      }
+    }
+  },
+  "memory": {
+    "key_facts": [
+      "Working in AI field since 2007",
+      "Three-time founder with two successful exits",
+      "Specialized in building high-performance teams (90%+ retention)",
+      "Master's in Computer Science with AI specialization",
+      "Guest lecturer at National University of Singapore (2020)",
+      "Former Techstars Technical Associate (2016)",
+      "Business mentor for Ukrainian startups (2014-2018)",
+      "Speaker and thought leader in AI entrepreneurship",
+      "YouTube channel (evgeniy.vyborov@gmail.com): https://www.youtube.com/channel/UCU5fgVZhh3ss9FCRkLXtcdg",
+      "Planning US trip November 15 - December 15, 2025 for conferences, sales, and investor meetings on West Coast",
+      "2025-10-27: TJ (immigration attorney) consultation - Recommended O-1 visa pathway converting to EB-1 green card. Multi-step process: 1) Start with O-1 visa, 2) Change status to EB-1 while in US, 3) Final green card step. Alternative: Same national interest waiver option used 5 years ago. Cost breakdown: O-1 = $13K attorney + $13.5K fees + $3.5K processing = ~$17K total. EB-1 conversion = additional $14K. Final green card step for Eugene and wife = additional ~$12K. Total pathway cost ~$43K. Key advantage: No need to return to Ukrainian embassy.",
+      "Q3 2025 Financial Status: $593,932 liquidity, $56,600/month burn, 10.5 months runway, $3.3M+ pipeline (as of Sept 30, 2025)",
+      "Three working lead generation channels: (1) AI Assessment Funnel via Meta Ads (~$500 per SQL), (2) Outbound campaign (6,000+ emails sent), (3) Content & Personal Brand (20K+ LinkedIn, 5K+ YouTube, 10K+ students)",
+      "Personal brand is the most effective lead generation engine - doubling down on content creation, podcast appearances, speaking engagements",
+      "Four core solution areas: Customer Support Automation, Marketing Automation & Content Creation, Ad Management, Sales Process Automation",
+      "Q4 2025 target: $65,000 monthly accounts receivable to reach breakeven",
+      "Mid-market B2B sales cycles are 30-60 days with summer slowdown (July-August decision-making halt)",
+      "Every customer implementation is exceeding expectations with measurable ROI and expansion conversations",
+      "Ability Inc (US) raised $1.5M with SMRK as lead investor",
+      "Ability Estonia holds ~450k as personal investment vehicle with no corporate tax structure",
+      "Ability Ukraine has $100k Google grant (in Hryvnia) - priority is to spend this on Ukrainian contractors",
+      "Legal counsel: Greyer Law (US - unresponsive), Barbasin Law (EU/Estonia), Sergey Pershman (US immigration)",
+      "Banking: Mercury (US), Payoneer (Estonia - needs upgrade), PrivatBank (Ukraine), Activa Bank (personal Portugal)",
+      "Document storage: Google Drive (US/Ukraine), Dropbox (Estonia/personal)",
+      "Portuguese NIF: 310918294, US SSN: 782-83-8264",
+      "Previous O1 visa expired Jan 2020, currently on B1/B2 visa, may reapply for O1",
+      "Estonia entity has overdue tax report and KYC documents pending",
+      "Ukraine UkrSib bank account needs to be closed"
+    ],
+    "past_decisions": [
+      {
+        "date": "2020",
+        "decision": "Successfully exited YayPay to Quadient",
+        "rationale": "Built to $30M+ in contracted sales, 300+ customers, $40B+ annually processed",
+        "outcome": "Successful acquisition, recognized as Leader in AI/ML by IDC"
+      },
+      {
+        "date": "2023-09",
+        "decision": "Founded Ability.ai",
+        "rationale": "Leverage AI expertise to help businesses automate full processes with autonomous agents",
+        "outcome": "Launched autonomous AI agent system and Agent Hub platform"
+      },
+      {
+        "decision": "Put Ability.AI Ads project on hold",
+        "date": "2025-10-31",
+        "rationale": "Not showing customer traction needed, focus is critical at this stage. CPO moved on, one engineer departed, one returned to core business. Saves costs and concentrates team on proven solutions.",
+        "outcome": "Stronger, more unified company with clearer focus"
+      },
+      {
+        "decision": "Shift strategy from growth-at-all-costs to sustainable breakeven",
+        "date": "2025-10-31",
+        "rationale": "10.5 months runway, bringing in revenue that extends runway, strong implementations create expansion opportunities, breakeven gives control of timeline and destiny",
+        "outcome": "Q4 target: $65K monthly ARR"
+      },
+      {
+        "decision": "Focus on personal brand as primary lead generation engine",
+        "date": "2025-10-31",
+        "rationale": "Most effective engine for lead generation proven by results. Multi-channel approach ensures not dependent on single source.",
+        "outcome": "Doubling down on content creation, podcast appearances, speaking engagements, webinars, agent-powered nurturing of 4,000+ contacts"
+      }
+    ],
+    "project_overviews": [
+      {
+        "name": "Ability.ai",
+        "status": "Active - Current Company",
+        "description": "Autonomous AI agent system for full business process automation including strategy, research, execution, analysis, and optimization. Includes Agent Hub platform for ready-to-deploy agents.",
+        "role": "Co-Founder & CEO",
+        "timeline": "September 2023 - Present"
+      },
+      {
+        "name": "Personal Brand & Content",
+        "status": "Active",
+        "description": "Content creation focused on AI agents, business automation, and entrepreneurship. Recent projects include Context Rot video and Project Kami Claude Code demo.",
+        "timeline": "Ongoing"
+      }
+    ],
+    "interaction_summaries": [
+      {
+        "date": "2025-10-23",
+        "summary": "Updated memory system with comprehensive profile from source-of-truth/ceo_zone/eugene_profile.md"
+      }
+    ]
+  },
+  "context": {
+    "current_task_id": null,
+    "active_discussion_topic": "Memory system setup and profile integration",
+    "recent_files_accessed": [
+      "source-of-truth/ceo_zone/eugene_profile.md",
+      "memory/memory_index.json",
+      "memory/action_log.txt",
+      "memory/file_index.md"
+    ],
+    "short_term_scratchpad": "Setting up Corbin 2.0 business management system with full memory context",
+    "active_topics": [
+      "November 2025 board update preparation",
+      "Client acquisition momentum (4 new clients)",
+      "SF trip planning Nov 26 - Dec 17",
+      "Pipeline rebuilding to 3x coverage target"
+    ],
+    "recent_work": [
+      "Q3 2025 investor update completed",
+      "Hired Mitch DeForest as Head of Sales for North America",
+      "Closed Ability.AI Ads project to focus on core strengths",
+      "Built three working lead generation channels"
+    ],
+    "recent_files": [
+      "project_files/board_calls/nov_2025/board_update_nov_2025_outline.md",
+      "project_files/board_calls/nov_2025/October 2025 Financial Report.pdf",
+      "project_files/us_trip_nov_dec_2025/"
+    ]
+  },
+  "entities": [
+    {
+      "type": "company",
+      "name": "Ability.ai",
+      "relationship": "Current company - Co-Founder & CEO",
+      "details": {
+        "founded": "September 2023",
+        "focus": "Autonomous AI agent systems for business process automation",
+        "products": [
+          "AI Agent System",
+          "Ability AI Agent Hub",
+          "Ability AI Ads"
+        ]
+      }
+    },
+    {
+      "type": "company",
+      "name": "YayPay (acquired by Quadient)",
+      "relationship": "Previous company - Co-Founder & CTO",
+      "details": {
+        "founded": "March 2016",
+        "exit": "Acquired 2020",
+        "funding": "$18.5M raised",
+        "revenue": "$30M+ contracted sales",
+        "customers": "300+ businesses",
+        "processing": "$40B+ annually",
+        "recognition": "IDC Leader in AI and Machine Learning"
+      }
+    },
+    {
+      "type": "company",
+      "name": "WebiNerds",
+      "relationship": "Founded software development agency",
+      "details": {
+        "timeline": "April 2011 - April 2019",
+        "focus": "Software development for SMEs with Ukraine-based resources",
+        "note": "Successor to A2A Integration (rebranded 2015)"
+      }
+    },
+    {
+      "type": "organization",
+      "name": "Techstars",
+      "relationship": "Technical Associate (2016)",
+      "details": {
+        "role": "Assisted 14 startups with technical and PM challenges",
+        "timeline": "February 2016 - June 2016"
+      }
+    },
+    {
+      "type": "organization",
+      "name": "National University of Singapore",
+      "relationship": "Guest Lecturer",
+      "details": {
+        "topic": "Decision-making in entrepreneurship",
+        "timeline": "November 2020 - December 2020"
+      }
+    },
+    {
+      "type": "person",
+      "name": "Anthony Venus",
+      "relationship": "Collaboration partner",
+      "details": {
+        "context": "Strategic collaboration frameworks in Business Management/av_colab folder"
+      }
+    },
+    {
+      "type": "person",
+      "name": "Mitch DeForest",
+      "relationship": "Head of Sales, North America",
+      "context": "10+ years in tech, built 10+ sales teams, $50M+ pipeline generated, $10M+ closed, Forbes 30 Under 30, previously worked with Eugene at YayPay",
+      "importance": "high",
+      "added": "2025-10-31"
+    },
+    {
+      "type": "company",
+      "name": "Genesis 10",
+      "relationship": "Prospect - Final Stages",
+      "details": {
+        "size": "$200M HR company",
+        "status": "Final stages of discussions",
+        "opportunity": "First enterprise-scale multi-department contract",
+        "context": "Far from AI automation - massive value creation opportunity. Cornerstone account that could establish us in enterprise HR tech space.",
+        "importance": "critical"
+      }
+    },
+    {
+      "type": "company",
+      "name": "HOLYWATER",
+      "relationship": "Customer",
+      "details": {
+        "size": "$70M company",
+        "solution": "Community management automation",
+        "results": "10-15% improvement in client acquisition rates",
+        "status": "Active, over-delivering"
+      }
+    },
+    {
+      "type": "company",
+      "name": "EVenergy",
+      "relationship": "Customer",
+      "details": {
+        "type": "Series B SaaS Company",
+        "solution": "Customer support automation",
+        "results": "90% CSAT on autonomous ticket processing (exceeds human benchmarks), faster first response and resolution times",
+        "contact": "Sandy Neill",
+        "status": "Active, expansion conversations"
+      }
+    },
+    {
+      "type": "company",
+      "name": "NutraDirect",
+      "relationship": "Customer",
+      "details": {
+        "solution": "MVP implementation",
+        "contact": "Erik",
+        "feedback": "Very positive, sees long-term collaboration potential",
+        "status": "Active"
+      }
+    },
+    {
+      "type": "company",
+      "name": "Flixbus",
+      "relationship": "Prospect",
+      "details": {
+        "status": "In discussions",
+        "pipeline_tier": "Enterprise"
+      }
+    },
+    {
+      "type": "company",
+      "name": "Quadient",
+      "relationship": "Prospect",
+      "details": {
+        "status": "In discussions",
+        "pipeline_tier": "Enterprise",
+        "note": "Eugene previously exited YayPay to Quadient"
+      }
+    },
+    {
+      "type": "company",
+      "name": "Ability Inc (US)",
+      "relationship": "Current business - US venture entity",
+      "details": {
+        "legal_structure": "US corporation",
+        "funding": "$1.5M raised, SMRK as lead investor",
+        "banking": "Mercury",
+        "accounting": "Xero",
+        "document_storage": "Google Drive",
+        "legal_counsel": "Greyer Law (Leonardo Greyer, SF - noted as unresponsive)",
+        "trademark": "Application in process",
+        "created": "2022-2023"
+      }
+    },
+    {
+      "type": "company",
+      "name": "Ability Estonia (EE)",
+      "relationship": "Personal holding/investment entity",
+      "details": {
+        "ownership": "100% owned by Eugene",
+        "holdings": "~450k",
+        "banking": "Payoneer (high fees, needs upgrade)",
+        "document_storage": "Dropbox",
+        "legal_counsel": "Barbasin Law",
+        "tax_structure": "No corporate tax, only dividend tax when withdrawn",
+        "pending_items": [
+          "Overdue tax report",
+          "KYC documents needed"
+        ],
+        "created": "~2021"
+      }
+    },
+    {
+      "type": "company",
+      "name": "Ability Ukraine (UA)",
+      "relationship": "Subsidiary of Ability Inc (US)",
+      "details": {
+        "purpose": "Pay Ukrainian contractors using Google grant",
+        "google_grant": "$100k in Hryvnia (priority to spend)",
+        "banking": "PrivatBank",
+        "director": "Valeries sister (legal), Valerie has access"
+      }
+    },
+    {
+      "type": "person",
+      "name": "Leonardo Greyer",
+      "relationship": "Legal Counsel (US)",
+      "details": {
+        "organization": "Greyer Law, San Francisco",
+        "role": "Handles US investment deals, trademark applications",
+        "notes": "Frustrated with lack of responsiveness"
+      }
+    },
+    {
+      "type": "person",
+      "name": "Sergey Pershman",
+      "relationship": "Immigration Attorney (US)",
+      "details": {
+        "role": "O1 visa and green card specialist",
+        "notes": "Worked on previous O1, may be re-engaged for new O1 application"
+      }
+    },
+    {
+      "type": "person",
+      "name": "Barbasin Law",
+      "relationship": "Legal Counsel (EU/Estonia)",
+      "details": {
+        "role": "Estonian entity management, residency prep, European trademark, accountant relationship"
+      }
+    },
+    {
+      "type": "person",
+      "name": "Olena Kuzmenko",
+      "relationship": "Wife",
+      "details": {
+        "notes": "Owns Kyiv apartment and house"
+      }
+    }
+  ],
+  "tasks_and_reminders": [],
+  "scheduled_tasks": {
+    "one_time": [],
+    "recurring": []
+  },
+  "agent_insights": {
+    "internal_notes": [
+      "Eugene is highly experienced in AI (since 2007) - trust his expertise",
+      "Focus on efficiency and direct communication",
+      "Strong track record of building successful teams and companies",
+      "Values automation and systematic approaches",
+      "Active content creator with personal brand focus on AI agents"
+    ],
+    "user_patterns": {
+      "typical_interaction_times": [],
+      "message_frequency": {
+        "daily_average": null,
+        "weekly_average": null,
+        "peak_hours": [],
+        "quiet_periods": []
+      },
+      "common_request_types": [],
+      "response_preferences": {
+        "preferred_response_length": "Concise but complete",
+        "likes_detailed_explanations": true,
+        "prefers_quick_actions": true
+      }
+    },
+    "behavioral_observations": [],
+    "effectiveness_metrics": {
+      "successful_task_completions": 0,
+      "clarification_requests_needed": 0,
+      "user_satisfaction_indicators": []
+    },
+    "learning_log": [
+      {
+        "date": "2025-10-23",
+        "observation": "Memory system initialized with comprehensive profile from source-of-truth",
+        "action_taken": "Populated all profile fields, entities, and key facts from eugene_profile.md"
+      }
+    ]
+  },
+  "custom_memory": {
+    "certifications": [
+      "Artificial Intelligence: Reinforcement Learning in Python",
+      "Innovation for Entrepreneurs: From Idea to Marketplace",
+      "Developing Innovative Ideas for New Companies",
+      "New Venture Finance: Startup Funding for Entrepreneurs",
+      "Advanced AI: Deep Reinforcement Learning in Python",
+      "Man of the Business Camp"
+    ],
+    "notable_achievements": [
+      "Two successful exits as founder",
+      "$18.5M+ raised across ventures",
+      "Built teams with 90%+ retention rates",
+      "Processed $40B+ annually through YayPay",
+      "IDC Leader recognition in AI/ML",
+      "Guest lecturer at top university"
+    ],
+    "infrastructure": {
+      "mcp_servers": [
+        {
+          "name": "youtube",
+          "purpose": "YouTube channel analytics and data retrieval",
+          "location": "youtube/youtube-mcp-server/",
+          "functions": 14,
+          "apis": [
+            "YouTube Data API v3",
+            "YouTube Analytics API"
+          ],
+          "project": "mcp-server-project-455215",
+          "added": "2025-10-25"
+        }
+      ]
+    },
+    "conferences_2025": [
+      {
+        "name": "Microsoft Ignite",
+        "type": "conference",
+        "dates": "November 17-21, 2025",
+        "location": "San Francisco, CA (Hyatt Regency SF / Moscone Center)",
+        "focus": "Enterprise technology, cloud infrastructure, AI integrations, security, productivity tools",
+        "target_audience": "CIOs, IT leaders, product managers, developers, architects",
+        "relevance": "Premier event for mid-market enterprises, strong AI/automation focus, high concentration of potential buyers",
+        "priority": "High",
+        "url": null
+      },
+      {
+        "name": "QCon San Francisco",
+        "dates": "November 17-21, 2025",
+        "location": "San Francisco, CA (Hyatt Regency on Embarcadero)",
+        "focus": "Architecture, scaling, distributed systems, AI deployment, technical leadership",
+        "target_audience": "Technical leaders, senior engineers, architects",
+        "relevance": "Technical decision-makers, ideal for showcasing technical depth of AI/automation solutions",
+        "priority": "High",
+        "url": "https://qconsf.com/"
+      },
+      {
+        "name": "INTERFACE Seattle",
+        "dates": "December 11, 2025",
+        "location": "Seattle, WA (Seattle Convention Center)",
+        "focus": "Cloud resilience, cybersecurity, AI infrastructure, compliance",
+        "target_audience": "Enterprise IT leaders, mid-market decision makers",
+        "relevance": "One-day strategic conference, efficient networking with PNW mid-market companies",
+        "priority": "Medium-High",
+        "url": null
+      },
+      {
+        "name": "PASS Data Community Summit",
+        "dates": "November 17-21, 2025",
+        "location": "Seattle, WA",
+        "focus": "Microsoft data ecosystem, Azure analytics, AI-enhanced data modeling, enterprise transformation",
+        "target_audience": "Data professionals, enterprise architects, IT leaders",
+        "relevance": "Data-driven mid-market companies needing automation for data pipelines",
+        "priority": "Medium",
+        "url": null
+      },
+      {
+        "name": "AWS AI Hack Day Micro Conference",
+        "dates": "December 11-12, 2025",
+        "location": "San Francisco, CA (AWS GenAI Loft, 525 Market Street, 18th Floor)",
+        "focus": "AI/ML hands-on, AWS ecosystem",
+        "target_audience": "Developers, AI practitioners, technical decision makers",
+        "relevance": "Intimate setting for technical demonstrations and AWS ecosystem connections",
+        "priority": "Medium",
+        "url": null
+      },
+      {
+        "name": "Emerging Manager Office Hours 14 (EMOH 14)",
+        "dates": "November 2025 (TBD)",
+        "location": "San Francisco, CA",
+        "focus": "VC fund managers, investor networking",
+        "target_audience": "VC investors, emerging fund managers",
+        "relevance": "Network with VCs who have portfolio companies needing services or interested in growth story",
+        "priority": "Medium",
+        "url": null
+      },
+      {
+        "name": "Venture Capital World Summit",
+        "dates": "December 16, 2025",
+        "location": "Denver, CO",
+        "focus": "Business-investor connections, scaling, international growth",
+        "target_audience": "Investors, businesses seeking capital",
+        "relevance": "Regional hub with investors focused on tech scale-ups",
+        "priority": "Low-Medium",
+        "url": "https://vcworldsummit.com/tickets/denver/"
+      },
+      {
+        "name": "AWS re:Invent 2025",
+        "dates": "December 1-5, 2025",
+        "location": "Las Vegas, NV",
+        "focus": "Cloud computing, AI, security, serverless, enterprise infrastructure",
+        "target_audience": "Cloud architects, CTOs, IT leaders, developers",
+        "relevance": "Major cloud computing event with enterprise focus, perfect for showcasing AI automation on AWS",
+        "priority": "High",
+        "url": null
+      },
+      {
+        "name": "0111 CTO Conference",
+        "dates": "November 6-7, 2025",
+        "location": "San Diego, CA (Shelter Island, Humphreys Half Moon Inn)",
+        "focus": "CTO leadership, technology strategy, mindset and impact",
+        "target_audience": "CTOs, VPs of Engineering, senior tech leaders",
+        "relevance": "Senior tech leadership gathering, excellent for strategic partnerships",
+        "priority": "Medium-High",
+        "url": "https://7ctos.com/0111conf"
+      },
+      {
+        "name": "API Conference",
+        "dates": "November 18-20, 2025",
+        "location": "San Diego, CA (Sheraton San Diego Hotel & Marina)",
+        "focus": "API Design, API Security, API Management, Integration Strategies",
+        "target_audience": "API architects, integration specialists, developers",
+        "relevance": "Perfect for showcasing API integrations and automation capabilities",
+        "priority": "Medium",
+        "url": null
+      },
+      {
+        "name": "Digital Health Conference 2025",
+        "dates": "December 4-5, 2025",
+        "location": "Newport Beach, CA",
+        "focus": "Healthcare technology, digital health, health IT innovation",
+        "target_audience": "Healthcare executives, health tech investors, digital health leaders",
+        "relevance": "Executive summit for healthcare vertical, excellent for investors and strategic partnerships",
+        "priority": "Medium",
+        "url": "https://digitalhealthconference.com/"
+      },
+      {
+        "name": "American Aerospace & Defense Summit",
+        "dates": "December 4-5, 2025",
+        "location": "Glendale, AZ",
+        "focus": "Manufacturing innovations, supply chain management, aerospace and defense",
+        "target_audience": "Industry leaders, supply chain professionals, engineering experts",
+        "relevance": "Manufacturing automation opportunities in aerospace/defense vertical",
+        "priority": "Low-Medium",
+        "url": null
+      },
+      {
+        "name": "Next Generation Patient Experience Conference",
+        "dates": "November 17-19, 2025",
+        "location": "Palm Springs, CA",
+        "focus": "Patient experience, healthcare operations",
+        "target_audience": "Healthcare administrators, patient experience leaders",
+        "relevance": "Healthcare operations vertical, potential for automation solutions",
+        "priority": "Low-Medium",
+        "url": null
+      },
+      {
+        "name": "Application Security Conference",
+        "dates": "December 4-6, 2025",
+        "location": "San Diego, CA (Town and Country Resort)",
+        "focus": "Application Security, Data Protection, Compliance, Threat Intelligence",
+        "target_audience": "Security professionals, compliance officers, IT security teams",
+        "relevance": "Important for understanding security requirements for enterprise AI automation",
+        "priority": "Low-Medium",
+        "url": null
+      }
+    ],
+    "scheduled_tasks": {
+      "calendar_check": {
+        "description": "Review upcoming calendar events and provide a summary",
+        "prompt": "Check my calendar (eugene@ability.ai) for the next 24 hours. Provide a summary of upcoming meetings including: times, attendees, and any potential conflicts or preparation needs. Save the summary to the notification file specified in the system prompt.",
+        "schedule": "daily",
+        "time": "08:00",
+        "enabled": true,
+        "last_run": "2025-10-27T09:25:33Z",
+        "last_status": "success",
+        "last_cost_usd": 0.14742105000000003
+      },
+      "email_priority_scan": {
+        "description": "Scan inbox for high-priority or urgent emails",
+        "prompt": "Search my inbox (eugene@ability.ai) for emails from the last 15 minutes. Look for messages containing urgent keywords or from priority senders. If any high-priority items are found, create a summary in the notification file. If nothing urgent, note that in the notification.",
+        "schedule": "every_10_minutes",
+        "enabled": false,
+        "last_run": null,
+        "last_status": null,
+        "last_cost_usd": null
+      },
+      "simple_test": {
+        "description": "Simple test task to verify scheduler is working",
+        "prompt": "Create a test report showing the current date/time and a brief system status. List the working directory contents and save a simple notification confirming the scheduler works.",
+        "schedule": "manual",
+        "enabled": true,
+        "last_run": "2025-10-27T09:31:41Z",
+        "last_status": "success",
+        "last_cost_usd": 0.24359725000000002
+      },
+      "email_calendar_monitor": {
+        "name": "email_calendar_monitor",
+        "schedule": "*/15 * * * *",
+        "enabled": true,
+        "prompt": "Check emails from last 20 minutes for urgent items (keywords: urgent, asap, critical, immediate) and scan calendar for next 24 hours for conflicts or prep needs. Cross-reference notification_tracker to avoid duplicates. Document all urgent items in the notification file with clear priority indicators.",
+        "description": "Monitors email and calendar, documents urgent items in notification files",
+        "last_run": "2025-10-27T11:28:37Z",
+        "last_status": "success",
+        "last_cost_usd": 0.5060634500000001
+      }
+    },
+    "notification_tracker": {
+      "recent_notifications": [],
+      "description": "Tracks recent notifications to prevent duplicates. Each entry: {id, type, summary, timestamp, status}",
+      "retention_hours": 24,
+      "note": "Agent checks this before sending notifications. Mark as resolved when action taken."
+    },
+    "business_metrics": {
+      "as_of_date": "2025-09-30",
+      "total_liquidity": "$593,932",
+      "monthly_burn": "$56,600",
+      "runway_months": 10.5,
+      "pipeline_arr": "$3.3M+",
+      "linkedin_followers": "20,000+",
+      "youtube_subscribers": "5,000+",
+      "course_students": "10,000+",
+      "q4_breakeven_target": "$65,000 monthly ARR"
+    },
+    "sales_insights": {
+      "mid_market_sales_cycle": "30-60 days",
+      "summer_slowdown": "July-August decision-making halt",
+      "sql_cost_meta_ads": "~$500",
+      "outbound_emails_sent": "6,000+",
+      "contacts_database": "4,000+",
+      "q3_new_sales_closed": 0,
+      "q3_churn_events": 1
+    }
+  }
+}

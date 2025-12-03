@@ -1,0 +1,74 @@
+graph TB
+    subgraph "User Interfaces"
+        UI1[Slack Client]
+        UI2[Web Browser]
+        UI3[API Client]
+    end
+
+    subgraph "Docker Container"
+        subgraph "Web Layer"
+            WEB[Web Configuration UI<br/>Port: 8080]
+            API[API Gateway<br/>Port: 3000]
+        end
+
+        subgraph "Core Services"
+            CLAUDE[Claude Code Engine<br/>Headless Mode]
+            QUEUE[Redis Queue<br/>Request Management]
+            VAULT[Infisical<br/>Credential Vault]
+        end
+
+        subgraph "Storage"
+            CONFIG[Configuration<br/>.mcp.json, claude.yaml]
+            WORKSPACE[Workspace<br/>Git Repository Mount]
+            CREDS[Encrypted Credentials]
+        end
+
+        subgraph "Integration Layer"
+            MCP1[Filesystem MCP]
+            MCP2[Google Workspace MCP]
+            MCP3[Slack MCP]
+            MCP4[Custom MCPs]
+        end
+    end
+
+    subgraph "External Services"
+        GIT[GitHub/GitLab<br/>State Sync]
+        GOOGLE[Google APIs]
+        SLACK[Slack API]
+        OTHER[Other Services]
+    end
+
+    UI1 -->|Events| API
+    UI2 -->|HTTPS| WEB
+    UI3 -->|REST| API
+
+    API --> QUEUE
+    QUEUE --> CLAUDE
+    WEB --> VAULT
+
+    CLAUDE --> MCP1
+    CLAUDE --> MCP2
+    CLAUDE --> MCP3
+    CLAUDE --> MCP4
+
+    VAULT -->|Inject Secrets| MCP2
+    VAULT -->|Inject Secrets| MCP3
+    VAULT -->|Inject Secrets| MCP4
+
+    MCP1 --> WORKSPACE
+    MCP2 --> GOOGLE
+    MCP3 --> SLACK
+    MCP4 --> OTHER
+
+    WORKSPACE <-->|SSH| GIT
+    CONFIG --> CLAUDE
+    CREDS --> VAULT
+
+    WEB -->|Manage| CONFIG
+    WEB -->|Store| CREDS
+
+    style CLAUDE fill:#e1f5fe
+    style VAULT fill:#fff3e0
+    style WEB fill:#f3e5f5
+    style API fill:#f3e5f5
+    style WORKSPACE fill:#e8f5e9

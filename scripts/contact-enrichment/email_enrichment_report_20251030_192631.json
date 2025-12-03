@@ -1,0 +1,94 @@
+{
+  "generated_at": "2025-10-30T19:26:31.156018",
+  "total_collaborators": 6,
+  "existing_in_database": 2,
+  "new_contacts": [
+    {
+      "email": "jon@aifund.ai",
+      "name": "Jon Zemmelman",
+      "message_count": 2,
+      "subjects": [
+        "Updated invitation: Eugene Vyborov and Jon Zemmelman",
+        "Invitation: Eugene Vyborov and Jon Zemmelman"
+      ]
+    },
+    {
+      "email": "rohan.agrawal.ceo@conciergeaiworks.com",
+      "name": "Rohan Agrawal",
+      "message_count": 2,
+      "subjects": [
+        "your website called — it wants better answers",
+        "See Concierge live on Ability.ai's site"
+      ]
+    },
+    {
+      "email": "valeriy.grabko@gmail.com",
+      "name": "Valeriy Grabko",
+      "message_count": 2,
+      "subjects": [
+        "Accepted: Catch UP",
+        "Accepted: Catch UP"
+      ]
+    },
+    {
+      "email": "shaan@anyscale.com",
+      "name": "Shaan Mukhtar",
+      "message_count": 2,
+      "subjects": [
+        "Re: Finish Ray Summit registration",
+        "Finish Ray Summit registration with 75% off"
+      ]
+    }
+  ],
+  "all_collaborators": {
+    "curtgooden@ceocoaching.com": {
+      "name": "Curt Gooden",
+      "count": 2,
+      "subjects": [
+        "Eugene and Curt Gooden",
+        "Re: INTRO: AI SaaS Coach Platform Project Leader"
+      ]
+    },
+    "jon@aifund.ai": {
+      "name": "Jon Zemmelman",
+      "count": 2,
+      "subjects": [
+        "Updated invitation: Eugene Vyborov and Jon Zemmelman",
+        "Invitation: Eugene Vyborov and Jon Zemmelman"
+      ]
+    },
+    "rohan.agrawal.ceo@conciergeaiworks.com": {
+      "name": "Rohan Agrawal",
+      "count": 2,
+      "subjects": [
+        "your website called — it wants better answers",
+        "See Concierge live on Ability.ai's site"
+      ]
+    },
+    "valeriy.grabko@gmail.com": {
+      "name": "Valeriy Grabko",
+      "count": 2,
+      "subjects": [
+        "Accepted: Catch UP",
+        "Accepted: Catch UP"
+      ]
+    },
+    "Natalia@now-for-women.com": {
+      "name": "Natalia Gaydukova",
+      "count": 3,
+      "subjects": [
+        "Re: W1 AI Agent Ready for Testing",
+        "Re: W1 AI Agent Ready for Testing",
+        "Re: W1 AI Agent Ready for Testing"
+      ]
+    },
+    "shaan@anyscale.com": {
+      "name": "Shaan Mukhtar",
+      "count": 2,
+      "subjects": [
+        "Re: Finish Ray Summit registration",
+        "Finish Ray Summit registration with 75% off"
+      ]
+    }
+  }
+}

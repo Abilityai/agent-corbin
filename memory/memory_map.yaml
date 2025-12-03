@@ -1,0 +1,91 @@
+# Corbin 2.0 Memory Map
+# High-signal index of memory components and key files
+# Last updated: 2025-10-25
+
+memory_components:
+  action_log:
+    path: memory/action_log.txt
+    description: Recent actions taken by Corbin (reverse chronological)
+    importance: high
+    load_count: 50  # lines from top
+    last_updated: check_on_load
+    
+  memory_index:
+    path: memory/memory_index.json
+    description: Core memory storage - profile, preferences, entities, tasks
+    importance: critical
+    selective_load: true  # use jq queries
+    sections:
+      - profile: user info, business details
+      - preferences: communication style, tools
+      - entities: people, projects, organizations
+      - tasks_and_reminders: active items
+      - context: current/recent work
+      
+  file_index:
+    path: memory/file_index.md
+    description: Directory tree with sizes/dates
+    importance: medium
+    last_updated: check_on_load
+    
+  memory_structure:
+    path: memory/default_memory_structure.json
+    description: Template/schema reference
+    importance: low
+    load_frequency: rarely
+
+key_project_files:
+  source_of_truth:
+    path: source-of-truth/
+    description: Git repo with business docs, processes, strategies
+    importance: critical
+    type: git_repository
+    key_files:
+      - README.md: overview and navigation
+      - sales_process_3.0.md: current sales methodology
+      - Q4_2025_OKRs.md: current quarter objectives
+      - "*.md": various business documentation
+      
+  agent_config:
+    path: Corbin20/
+    description: Corbin configuration and memory
+    importance: high
+    key_files:
+      - claude.md: agent instructions
+      - .mcp.json: MCP servers (Google Workspace, Fibery, YouTube)
+
+  youtube_analytics:
+    path: youtube/
+    description: YouTube channel analytics infrastructure
+    importance: medium
+    added: 2025-10-25
+    channel: UCU5fgVZhh3ss9FCRkLXtcdg
+    email: evgeniy.vyborov@gmail.com
+    key_files:
+      - README.md: overview and status
+      - QUICK_START.md: setup guide
+      - youtube-mcp-server/: MCP server (14 functions)
+      
+  commands:
+    path: .claude/commands/
+    description: Claude command definitions
+    importance: medium
+    files:
+      - load-memory.md
+      - update-memory.md
+      - re-index-files.md
+
+context_indicators:
+  recent_activity:
+    - check: action_log top 10 lines
+    - relevance: immediate context
+    
+  active_projects:
+    - check: memory_index.json > context > active_topics
+    - check: file_index.md recent modifications
+    
+  priority_areas:
+    - sales_process: when discussing sales/revenue
+    - okrs: when planning/reviewing progress
+    - google_workspace: for email/calendar tasks
+    - youtube_analytics: for video performance/content analysis

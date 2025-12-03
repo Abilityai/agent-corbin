@@ -1,0 +1,25 @@
+# Environment and credentials
+.env
+.mcp.json
+
+# Logs
+*.log
+logs/
+
+# Session and temporary files
+session-files/
+project_files/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Google OAuth tokens (managed by MCP server)
+.google-mcp-token.json

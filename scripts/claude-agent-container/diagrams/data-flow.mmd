@@ -1,0 +1,50 @@
+sequenceDiagram
+    participant User
+    participant Slack
+    participant WebUI
+    participant API Gateway
+    participant Queue
+    participant Claude Code
+    participant Infisical
+    participant MCP Server
+    participant External Service
+    participant Git Repo
+
+    Note over User,Git Repo: Credential Configuration Flow
+    User->>WebUI: Access configuration page
+    WebUI->>User: Authenticate with token
+    User->>WebUI: Enter service credentials
+    WebUI->>Infisical: Store encrypted credentials
+    Infisical->>WebUI: Confirm storage
+    WebUI->>Git Repo: Sync configuration metadata
+    Git Repo->>WebUI: Confirm sync
+
+    Note over User,Git Repo: Task Execution Flow via Slack
+    User->>Slack: Send command "/agent task"
+    Slack->>API Gateway: POST webhook event
+    API Gateway->>Queue: Queue task request
+    Queue->>Claude Code: Dequeue and execute
+
+    Claude Code->>Infisical: Request credentials for MCP
+    Infisical->>Claude Code: Return decrypted credentials
+    Claude Code->>MCP Server: Initialize with credentials
+    MCP Server->>External Service: Execute API call
+    External Service->>MCP Server: Return response
+    MCP Server->>Claude Code: Process response
+    Claude Code->>Queue: Return result
+    Queue->>API Gateway: Deliver response
+    API Gateway->>Slack: Send formatted message
+    Slack->>User: Display result
+
+    Note over Claude Code,Git Repo: State Synchronization
+    loop Every hour
+        Claude Code->>Git Repo: Push state changes
+        Git Repo->>Claude Code: Pull configuration updates
+    end
+
+    Note over WebUI,Infisical: Credential Rotation
+    WebUI->>Infisical: Trigger rotation
+    Infisical->>External Service: Validate new credentials
+    External Service->>Infisical: Confirm validity
+    Infisical->>MCP Server: Update environment variables
+    MCP Server->>Claude Code: Reload with new credentials

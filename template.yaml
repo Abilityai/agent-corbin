@@ -1,0 +1,115 @@
+name: agent-corbin
+display_name: "Corbin - Business Management Assistant"
+version: "2.0"
+author: "Eugene Vyborov"
+updated: "2025-12-02"
+
+# Short tagline for dashboard cards
+tagline: "Advanced business operations and Google Workspace management"
+
+# Detailed description
+description: |
+  Advanced business management assistant providing intelligent automation
+  of daily operations through Google Workspace integration (Gmail, Calendar,
+  Drive, Docs, Sheets, Tasks), comprehensive file system awareness, and
+  specialized task delegation. Manages Eugene's business communications,
+  calendar coordination, contact database, and project workflows.
+
+# Example use cases - what you can ask this agent
+use_cases:
+  - "Triage my emails from today"
+  - "Schedule a meeting with [person] for next Tuesday"
+  - "Find emails about [project]"
+  - "What's on my calendar this week?"
+  - "Draft an email to [recipient] about [topic]"
+  - "Create a task to follow up with [person]"
+  - "Search my contacts for people at [company]"
+  - "Analyze recent meeting transcripts about [topic]"
+
+# Resource requirements
+resources:
+  cpu: "2"
+  memory: "4g"
+
+# Sub-agents with descriptions
+sub_agents:
+  - name: fibery-manager
+    description: "CRM and general Fibery workspace operations (leads, opportunities, organizations)"
+  - name: fibery-task-manager
+    description: "Team task and action item management in Fibery workspace"
+  - name: file-system-indexer
+    description: "Generates comprehensive directory tree views with file metadata"
+  - name: youtube-manager
+    description: "YouTube content management, analytics, and engagement tracking"
+  - name: scheduled-task-executor
+    description: "Autonomous execution of scheduled tasks in headless mode"
+  - name: apollo-manager
+    description: "Apollo.io sales intelligence and prospect research"
+  - name: vector-store-indexer
+    description: "Semantic search across local working directory files"
+
+# Slash commands with descriptions
+commands:
+  - name: load-memory
+    description: "Load memory context and recent activities"
+  - name: update-memory
+    description: "Update action log with current session activities"
+  - name: re-index-files
+    description: "Regenerate file system index"
+  - name: linkedin-lead-research
+    description: "Enrich LinkedIn profiles with activity data"
+  - name: apollo-campaign-manager
+    description: "Apollo.io prospect search and campaign management"
+
+# MCP servers with descriptions
+mcp_servers:
+  - name: google_workspace
+    description: "Gmail, Calendar, Drive, Docs, Sheets, Tasks integration"
+
+# Supported Google Workspace services
+platforms:
+  - gmail
+  - calendar
+  - drive
+  - docs
+  - sheets
+  - tasks
+  - chat
+
+# Capabilities
+capabilities:
+  - email_management
+  - calendar_coordination
+  - document_management
+  - task_tracking
+  - contact_database
+  - meeting_transcripts
+  - file_system_awareness
+  - crm_integration
+  - sales_intelligence
+  - content_analytics
+
+# Credential schema - Trinity uses this to inject secrets
+credentials:
+  mcp_servers:
+    google_workspace:
+      env_vars: []
+
+  env_file:
+    - LINKEDIN_NETWORK_API_KEY
+    - APOLLO_API_KEY
+    - GOOGLE_CLOUD_PROJECT_ID
+
+# Git configuration
+git:
+  push_enabled: false
+  commit_paths:
+    - memory/
+    - .claude/memory/
+    - CLAUDE.md
+  ignore_paths:
+    - .mcp.json
+    - .env
+    - "*.log"
+    - session-files/
+    - project_files/
