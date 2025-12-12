@@ -63,7 +63,7 @@ claude
 ## Architecture
 
 - **MCP Server**: google_workspace (Gmail, Calendar, Drive, Docs, Sheets, Tasks)
-- **Sub-Agents**: fibery-manager, fibery-task-manager, youtube-manager, apollo-manager, scheduled-task-executor, vector-store-indexer
+- **Sub-Agents**: fibery-manager, fibery-task-manager, file-system-indexer, youtube-manager, apollo-manager, scheduled-task-executor, vector-store-indexer
 - **Memory System**: Persistent memory in memory/ folder with action logs
 - **Capabilities**: LinkedIn lead research, Apollo.io campaign management, call transcript search
 
