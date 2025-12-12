@@ -1,0 +1,57 @@
+# Environment and credentials
+.env
+.mcp.json
+
+# Logs
+*.log
+logs/
+
+# Session and temporary files
+session-files/
+project_files/
+
+# OS files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code session data
+.claude/projects/
+.claude/statsig/
+
+# Google OAuth tokens (managed by MCP server)
+.google-mcp-token.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Keep templates
+!.env.example
+!.mcp.json.template
+
+# Apollo exports - contains prospect data
+.claude/abilities/apollo-campaign-manager/exports/*.csv
+
+# LinkedIn research exports
+.claude/abilities/linkedin-lead-research/exports/
+
+# Memory files that may contain personal data
+memory/memory_map.yaml
+memory/notification_tracker.json
+
+# Outreach drafts and personal communications
+scripts/utilities/*_outreach*.md
+scripts/utilities/*_drafts*.md

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "google_workspace": {
+      "description": "Google Workspace integration (Gmail, Calendar, Drive, Docs, Sheets, etc.)",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-google-workspace@0.1.2"
+      ],
+      "env": {}
+    }
+  }
+}

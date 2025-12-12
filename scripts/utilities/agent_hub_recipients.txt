@@ -1,0 +1,57 @@
+# Ability AI Agent Hub Recipients - Warm Leads
+# People who downloaded AI agents and showed interest in automation
+# Generated: 2025-11-07
+
+## Extracted Recipients (First 25 messages):
+
+1. Alvin Wu - AI News Summarizer & Keyword Extractor Agent
+2. n kay - AI Proxmox Management Agent with n8n and Google Gemini
+3. Lucas - AI SMS Chat Agent with Smart Reply Debouncer (OpenAI & Twilio)
+4. Janaka Bandara - AI Document Q&A Agent with n8n, OpenAI & Qdrant
+5. sanjai - n8n Binary File Handler & Benchmark
+6. sanggeun - AI Agent: Notion Knowledge Base to Vector Store
+7. blaise corod - AI-Powered HubSpot Chat Assistant using OpenAI & n8n
+8. mike - AI Proxmox Management Agent with n8n and Google Gemini
+9. lrupp - AI-Powered GitLab Merge Request Code Reviewer
+10. parth - AI Agent: OpenAI Model Fine-Tuner & Interaction
+11. matheus sangrento - AI Telegram Image Generation Agent
+12. Ajisa - AI Agent: Chat with Your PostgreSQL Database
+13. YC - Custom AI Agent & Chain Dev Kit (LangChain Code Node)
+14. chidvilaskankat - AI Blog Automation Agent: From Google Sheet to Published Post
+15. jjp - DeepSeek AI Agent: Telegram Bot with Google Docs Long-Term Memory
+16. Michael Sellmaier - AI Outlook Email Categorization Agent with Ollama (2 downloads)
+17. Valerii Akopian - AI Agent: Automated Notion Content Ingestion to Vector Store (Gemini & Pinecone)
+18. Paolo Franchetti - AI Agent Factory for Notion Databases
+19. ash - AI Agent: Dynamic HTML Generator with OpenAI & Tailwind CSS
+
+## Remaining Messages to Extract (25 more):
+
+Need to retrieve the remaining 25 emails to complete the list. Rate limiting slowed down the initial extraction.
+
+## Key Insights:
+
+**Interest Areas:**
+- Document/Knowledge Base Management (Notion, Q&A, Vector Stores)
+- Content Automation (Blog posts, HTML generation, News summarization)
+- Infrastructure Management (Proxmox, GitLab)
+- Communication Automation (Email categorization, Telegram bots, SMS, HubSpot)
+- AI/ML Development (Fine-tuning, LangChain, custom agents)
+
+**Engagement Level:**
+- These are warm leads who took action to download agents
+- Already interested in AI automation and n8n workflows
+- Some downloaded multiple agents (Michael Sellmaier)
+- Technical audience (developers, DevOps, automation enthusiasts)
+
+**Content Pipeline Fit:**
+- Many downloaded content-related agents (blog automation, news summarization)
+- Interest in knowledge base and documentation automation
+- Several downloaded Notion-related workflows (content management)
+- Image generation and visual content interest (Telegram image agent)
+
+**Outreach Strategy:**
+- Reference their downloaded agent as conversation starter
+- Position content pipeline as "next-level automation"
+- Emphasize multi-platform content creation (they understand automation value)
+- Technical audience - can handle detailed demos and architecture discussions
+- Lower price point ($2-3K) since they're early in automation journey

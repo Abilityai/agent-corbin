@@ -1,0 +1,86 @@
+graph TB
+    subgraph "Development Environment"
+        DEV[Developer Machine]
+        REPO[Git Repository<br/>github.com/org/agent-workspace]
+    end
+
+    subgraph "Build Pipeline"
+        DOCKER_REG[Docker Registry<br/>dockerhub/ghcr.io]
+        CI[CI/CD Pipeline<br/>GitHub Actions]
+    end
+
+    subgraph "Production Host"
+        subgraph "Docker Engine"
+            subgraph "Network: claude-network"
+                subgraph "Claude Agent Container"
+                    SUPERVISOR[Supervisor<br/>Process Manager]
+                    CLAUDE_BIN[Claude Code CLI<br/>Binary]
+                    FASTAPI[FastAPI Server<br/>:8080]
+                    API_SRV[API Gateway<br/>:3000]
+                    REDIS[Redis<br/>:6379 internal]
+                end
+
+                subgraph "Infisical Container"
+                    INFISICAL[Infisical Server<br/>:8081]
+                    POSTGRES[PostgreSQL<br/>:5432 internal]
+                end
+            end
+
+            subgraph "Volumes"
+                VOL_WORKSPACE[workspace<br/>User Git Repo]
+                VOL_CONFIG[config<br/>Agent Config]
+                VOL_CREDS[credentials<br/>Encrypted Store]
+                VOL_INFISICAL[infisical-data<br/>Secret Storage]
+            end
+        end
+    end
+
+    subgraph "External Connections"
+        ANTHROPIC[Anthropic API<br/>claude.ai]
+        SLACK_API[Slack API<br/>slack.com]
+        GOOGLE_API[Google Workspace<br/>googleapis.com]
+        CUSTOM_API[Custom Services]
+    end
+
+    subgraph "Monitoring"
+        LOGS[Log Aggregation<br/>Datadog/CloudWatch]
+        METRICS[Metrics<br/>Prometheus]
+        ALERTS[Alerting<br/>PagerDuty]
+    end
+
+    DEV -->|Push Code| REPO
+    REPO -->|Trigger| CI
+    CI -->|Build & Push| DOCKER_REG
+    DOCKER_REG -->|Pull Image| SUPERVISOR
+
+    SUPERVISOR -->|Manage| CLAUDE_BIN
+    SUPERVISOR -->|Manage| FASTAPI
+    SUPERVISOR -->|Manage| API_SRV
+    SUPERVISOR -->|Manage| REDIS
+
+    CLAUDE_BIN -->|Mount| VOL_WORKSPACE
+    CLAUDE_BIN -->|Read| VOL_CONFIG
+    FASTAPI -->|Write| VOL_CONFIG
+    FASTAPI -->|Access| VOL_CREDS
+    INFISICAL -->|Store| VOL_INFISICAL
+    INFISICAL -->|Use| POSTGRES
+
+    CLAUDE_BIN -->|API Calls| ANTHROPIC
+    API_SRV -->|Webhooks| SLACK_API
+    CLAUDE_BIN -->|Via MCP| GOOGLE_API
+    CLAUDE_BIN -->|Via MCP| CUSTOM_API
+
+    FASTAPI -->|Request Secrets| INFISICAL
+    CLAUDE_BIN -->|Get Secrets| INFISICAL
+
+    REDIS -->|Logs| LOGS
+    API_SRV -->|Metrics| METRICS
+    METRICS -->|Trigger| ALERTS
+
+    VOL_WORKSPACE -->|Sync| REPO
+
+    style CLAUDE_BIN fill:#4fc3f7
+    style INFISICAL fill:#ffd54f
+    style FASTAPI fill:#ba68c8
+    style VOL_WORKSPACE fill:#81c784
+    style VOL_CREDS fill:#ff8a65
