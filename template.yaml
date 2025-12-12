@@ -100,6 +100,48 @@ credentials:
     - APOLLO_API_KEY
     - GOOGLE_CLOUD_PROJECT_ID
 
+# Custom metrics - displayed in Trinity UI Metrics tab
+metrics:
+  - name: emails_processed
+    type: counter
+    label: "Emails"
+    description: "Emails triaged and processed"
+
+  - name: meetings_scheduled
+    type: counter
+    label: "Meetings"
+    description: "Calendar meetings created"
+
+  - name: tasks_created
+    type: counter
+    label: "Tasks"
+    description: "Tasks created or managed"
+
+  - name: delegations_sent
+    type: counter
+    label: "Delegations"
+    description: "Work delegated to other agents"
+
+  - name: contacts_searched
+    type: counter
+    label: "Contacts"
+    description: "Contact database queries"
+
+  - name: agent_state
+    type: status
+    label: "State"
+    description: "Current agent operational state"
+    values:
+      - value: "active"
+        color: "green"
+        label: "Active"
+      - value: "coordinating"
+        color: "blue"
+        label: "Coordinating"
+      - value: "idle"
+        color: "gray"
+        label: "Idle"
+
 # Git configuration
 git:
   push_enabled: false

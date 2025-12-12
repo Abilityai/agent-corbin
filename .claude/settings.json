@@ -1,7 +1,1 @@
-{
-  "permissions": {
-    "deny": [
-      "Read(../CLAUDE.md)"
-    ]
-  }
-}
+{"model": "claude-3-5-haiku-latest"}
