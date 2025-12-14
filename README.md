@@ -9,7 +9,7 @@ Corbin 2.0 is an advanced business management assistant providing intelligent au
 - **Google Workspace Integration**: Gmail, Calendar, Drive, Docs, Sheets, Tasks
 - **Email Management**: Triage, draft, send, search, and reply to emails
 - **Calendar Coordination**: Schedule meetings, check availability, manage events
-- **Contact Database**: 8,071+ enriched contacts with LinkedIn and Apollo.io data
+- **Contact Database**: Enriched contacts with LinkedIn and Apollo.io data
 - **Task Management**: Google Tasks integration for personal task tracking
 - **Meeting Intelligence**: Transcript search and analysis via Vertex AI
 - **Sales Intelligence**: Apollo.io prospect research and lead enrichment

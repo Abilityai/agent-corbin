@@ -156,7 +156,7 @@ This database provides deep intelligence on your network for informed business i
 
 **Location**: `$AGENTS_DIR/contact-management-agent`
 
-**Purpose**: Semantic search and queries over 8,071 contacts in Obsidian vault using Smart Connections MCP. Provides enriched profiles with LinkedIn activity, Apollo.io data, and network insights.
+**Purpose**: Semantic search and queries over contacts in Obsidian vault using Smart Connections MCP. Provides enriched profiles with LinkedIn activity, Apollo.io data, and network insights.
 
 **Headless Usage:**
 ```bash

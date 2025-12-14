@@ -4,8 +4,8 @@
 Semantic search and Q&A over call transcripts stored in Google Drive using Vertex AI Search RAG engine.
 
 ## API Details
-- **Project ID**: 664255702042
-- **Engine ID**: transcript-rag_1762512457762
+- **Project ID**: Set via `VERTEX_PROJECT_ID` environment variable
+- **Engine ID**: Set via `VERTEX_ENGINE_ID` environment variable
 - **Data Source**: Google Drive folder - Call Transcripts
 - **Authentication**: gcloud auth (OAuth 2.0)
 
@@ -37,10 +37,14 @@ Semantic search and Q&A over call transcripts stored in Google Drive using Verte
 
 ### Direct cURL
 ```bash
+# Set environment variables first:
+# export VERTEX_PROJECT_ID=your-project-id
+# export VERTEX_ENGINE_ID=your-engine-id
+
 curl -X POST \
   -H "Authorization: Bearer $(gcloud auth print-access-token)" \
   -H "Content-Type: application/json" \
-  "https://discoveryengine.googleapis.com/v1alpha/projects/664255702042/locations/global/collections/default_collection/engines/transcript-rag_1762512457762/servingConfigs/default_search:search" \
+  "https://discoveryengine.googleapis.com/v1alpha/projects/${VERTEX_PROJECT_ID}/locations/global/collections/default_collection/engines/${VERTEX_ENGINE_ID}/servingConfigs/default_search:search" \
   -d '{
     "query": "your query",
     "pageSize": 10,
@@ -50,7 +54,7 @@ curl -X POST \
     "contentSearchSpec": {
       "extractiveContentSpec": {"maxExtractiveAnswerCount": 1}
     },
-    "userInfo": {"timeZone": "Europe/Lisbon"}
+    "userInfo": {"timeZone": "UTC"}
   }'
 ```
 

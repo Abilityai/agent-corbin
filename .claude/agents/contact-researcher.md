@@ -172,7 +172,7 @@ Execute comprehensive contact research across all available resources:
 
 **Contact Management Agent** (Primary Source):
 - Location: `$AGENTS_DIR/contact-management-agent`
-- Database: 8,071+ enriched contacts with LinkedIn + Apollo.io data
+- Database: Enriched contacts with LinkedIn + Apollo.io data
 - Usage: Headless Claude Code execution with semantic search
 - Command: `cd /path && timeout 300 claude -p "query" --permission-mode bypassPermissions --output-format json`
 - Timeout: Always use 300-second (5-minute) timeout

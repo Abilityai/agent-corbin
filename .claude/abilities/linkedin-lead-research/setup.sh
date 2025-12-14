@@ -29,7 +29,7 @@ if [ ! -f "$SKILL_DIR/.env" ]; then
     cat > "$SKILL_DIR/.env" << 'EOF'
 # LinkedIn API Configuration
 # RapidAPI professional-network-data key
-RAPIDAPI_KEY=a45f6d315fmsh9421f84897ba7ddp15659fjsn3eb60906b0db
+RAPIDAPI_KEY=your-rapidapi-key-here
 EOF
     echo "✓ Created .env file with default API key"
 else

@@ -12,8 +12,10 @@ if [ -z "$QUERY" ]; then
     exit 1
 fi
 
-# API endpoint
-ENDPOINT="https://discoveryengine.googleapis.com/v1alpha/projects/664255702042/locations/global/collections/default_collection/engines/transcript-rag_1762512457762/servingConfigs/default_search:search"
+# API endpoint - requires VERTEX_PROJECT_ID and VERTEX_ENGINE_ID environment variables
+PROJECT_ID="${VERTEX_PROJECT_ID:-YOUR_PROJECT_ID}"
+ENGINE_ID="${VERTEX_ENGINE_ID:-YOUR_ENGINE_ID}"
+ENDPOINT="https://discoveryengine.googleapis.com/v1alpha/projects/${PROJECT_ID}/locations/global/collections/default_collection/engines/${ENGINE_ID}/servingConfigs/default_search:search"
 
 # Execute the search
 curl -X POST \
@@ -29,5 +31,5 @@ curl -X POST \
     \"contentSearchSpec\": {
       \"extractiveContentSpec\": {\"maxExtractiveAnswerCount\": 1}
     },
-    \"userInfo\": {\"timeZone\": \"Europe/Lisbon\"}
+    \"userInfo\": {\"timeZone\": \"${USER_TIMEZONE:-UTC}\"}
   }"

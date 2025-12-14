@@ -44,8 +44,8 @@ def get_api_key() -> str:
                     if key:
                         return key
 
-    # Fallback to hardcoded key
-    return "a45f6d315fmsh9421f84897ba7ddp15659fjsn3eb60906b0db"
+    # No fallback - require explicit configuration
+    raise ValueError("RAPIDAPI_KEY not found. Set RAPIDAPI_KEY environment variable or add to .env file.")
 
 
 def extract_username_from_url(url: str) -> Optional[str]:

@@ -22,10 +22,13 @@ def get_access_token() -> str:
 
 def search_transcripts(query: str, page_size: int = 10) -> Dict:
     """Search call transcripts using Vertex AI Search API"""
+    import os
+    project_id = os.environ.get("VERTEX_PROJECT_ID", "YOUR_PROJECT_ID")
+    engine_id = os.environ.get("VERTEX_ENGINE_ID", "YOUR_ENGINE_ID")
     endpoint = (
-        "https://discoveryengine.googleapis.com/v1alpha/projects/664255702042/"
-        "locations/global/collections/default_collection/engines/"
-        "transcript-rag_1762512457762/servingConfigs/default_search:search"
+        f"https://discoveryengine.googleapis.com/v1alpha/projects/{project_id}/"
+        f"locations/global/collections/default_collection/engines/"
+        f"{engine_id}/servingConfigs/default_search:search"
     )
 
     access_token = get_access_token()
@@ -39,7 +42,7 @@ def search_transcripts(query: str, page_size: int = 10) -> Dict:
         "contentSearchSpec": {
             "extractiveContentSpec": {"maxExtractiveAnswerCount": 1}
         },
-        "userInfo": {"timeZone": "Europe/Lisbon"}
+        "userInfo": {"timeZone": os.environ.get("USER_TIMEZONE", "UTC")}
     }
 
     result = subprocess.run(

@@ -49,7 +49,7 @@ Claude will automatically invoke this skill!
 
 Located in `.env` file:
 ```
-RAPIDAPI_KEY=a45f6d315fmsh9421f84897ba7ddp15659fjsn3eb60906b0db
+RAPIDAPI_KEY=your-rapidapi-key-here
 ```
 
 To use a different key:

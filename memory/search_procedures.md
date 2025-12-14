@@ -31,7 +31,7 @@ WHAT ARE YOU LOOKING FOR?
 
 ## Section 1: Contact Search
 
-**Data Source**: 8,071 enriched contacts with LinkedIn + Apollo + Google Contacts data
+**Data Source**: Enriched contacts with LinkedIn + Apollo + Google Contacts data
 
 ### Search Method Selection
 
