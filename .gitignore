@@ -1,6 +1,16 @@
-# Environment and credentials
+# Credentials - NEVER COMMIT
 .env
 .mcp.json
+*.pem
+*.key
+credentials.json
+
+# Platform-managed directories - DO NOT COMMIT
+.trinity/
+.claude/commands/trinity/
+
+# Large generated content - DO NOT COMMIT
+content/
 
 # Logs
 *.log
